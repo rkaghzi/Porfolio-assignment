@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Skills & Interests</title>
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    /* Custom CSS for additional styling */
+    .progress-bar {
+      height: 8px;
+      border-radius: 4px;
+      background-color: #4b5563; /* Tailwind's gray-600 */
+    }
+    .progress-bar-fill {
+      height: 100%;
+      border-radius: 4px;
+      background-color: #facc15; /* Tailwind's yellow-400 */
+    }
+  </style>
+</head>
+<body class="bg-gray-900 text-white font-sans">
+
+  <!-- Navigation Bar -->
+  <nav class="flex justify-between items-center p-4 bg-gray-800">
+    <a href="Home.html" class="text-2xl font-bold text-yellow-500 hover:text-yellow-600">
+      My Portfolio
+    </a>
+    <ul class="flex space-x-6">
+      <li><a href="profile.html" class="hover:text-yellow-500">Profile</a></li>
+      <li><a href="gallery.html" class="hover:text-yellow-500">Gallery</a></li>
+      <li><a href="career.html" class="hover:text-yellow-500">Career Goals</a></li>
+      <li><a href="project.html" class="hover:text-yellow-500">Projects</a></li>
+      <li><a href="skills.html" class="hover:text-yellow-500">Skills & Interests</a></li>
+      <li><a href="contact.html" class="hover:text-yellow-500">Contact Us</a></li>
+    </ul>
+  </nav>
+
+  <!-- Skills & Interests Section -->
+  <section class="min-h-screen p-6">
+    <header class="text-center mb-8">
+      <h1 class="text-4xl font-bold mb-4">Skills & Interests</h1>
+      <p class="text-lg">An overview of my qualifications and hobbies.</p>
+    </header>
+    
+    <div class="container mx-auto px-4">
+      <!-- Skills Section -->
+      <div class="mb-12">
+        <h2 class="text-3xl font-semibold mb-4">Skills</h2>
+        <div class="space-y-6">
+          <!-- Skill 1 -->
+          <div>
+            <p class="text-xl mb-2">HTML & CSS</p>
+            <div class="progress-bar">
+              <div class="progress-bar-fill" style="width: 90%;"></div>
+            </div>
+          </div>
+          <!-- Skill 2 -->
+          <div>
+            <p class="text-xl mb-2">C++ & Java</p>
+            <div class="progress-bar">
+              <div class="progress-bar-fill" style="width: 80%;"></div>
+            </div>
+          </div>
+          <!-- Skill 3 -->
+          <div>
+            <p class="text-xl mb-2">Web Development</p>
+            <div class="progress-bar">
+              <div class="progress-bar-fill" style="width: 70%;"></div>
+            </div>
+          </div>
+          <div>
+            <p class="text-xl mb-2">UI/Ux</p>
+            <div class="progress-bar">
+              <div class="progress-bar-fill" style="width: 60%;"></div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      <!-- Interests Section -->
+      <div>
+        <h2 class="text-3xl font-semibold mb-4">Interests</h2>
+        <p class="text-lg leading-relaxed">
+          Outside of technology, I have a passion for exploring new places, capturing moments, and reading. I enjoy learning about different cultures and experimenting with new tools in my spare time. These interests not only provide a creative outlet but also contribute to my problem-solving skills and overall well-being.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer Section -->
+  <footer class="bg-gray-800 py-6 text-center">
+    <p class="text-gray-400">&copy; 2024 Rabail Kaghzi. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>

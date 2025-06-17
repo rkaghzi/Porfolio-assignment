@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <style>
+        /* Custom CSS for additional styling */
+        .hero {
+            background-image: url('Image.jpg');
+            background-size: cover;
+            background-position: center;
+        }
+    </style>
+</head>
+<body class="bg-gray-900 text-white">
+
+    <!-- Navigation Bar -->
+    <nav class="flex justify-between items-center p-4 bg-gray-800">
+      <header class="p-4 bg-gray-800 flex justify-between items-center">
+        <a href="Home.html" class="text-2xl font-bold text-yellow-500 hover:text-yellow-600">
+          My Portfolio
+        </a>
+      </header>
+        <ul class="flex space-x-6">
+            <li><a href="profile.html" class="hover:text-yellow-500">Profile</a></li>
+            <li><a href="gallery.html" class="hover:text-yellow-500">Gallery</a></li>
+            <li><a href="career.html" class="hover:text-yellow-500">Career Goals</a></li>
+            <li><a href="project.html" class="hover:text-yellow-500">Projects</a></li>
+            <li><a href="skills.html" class="hover:text-yellow-500">Skills & Interests</a></li>
+            <li><a href="contact.html" class="hover:text-yellow-500">Contact Us</a></li>
+        </ul>
+    </nav>
+
+    <!-- Hero Section with Introduction -->
+    <header class="hero h-screen flex items-center justify-center">
+        <div class="text-center">
+            <img src="Capture.PNG" alt="Profile" class="mx-auto rounded-full w-28 h-28 border-4 border-yellow-500 mb-4">
+            <h1 class="text-4xl font-bold">Creating websites, ui/ux designs and much more!</h1>
+            <p class="text-gray-400 mt-2 max-w-md mx-auto">Hello there. I'm Rabail Kaghzi, a passionate developer focused on creating seamless and user-friendly digital experiences. Welcome to my portfolio!</p>
+            <a href="profile.html">
+              <button class="mt-6 px-6 py-3 bg-yellow-500 text-black font-bold rounded-lg hover:bg-yellow-600"> 
+                  Learn More
+              </button>
+          </a>
+        </div>
+    </header>
+
+    <!-- Footer Section with Logos -->
+    <footer class="bg-gray-800 py-6 text-center">
+      <p class="text-gray-400">&copy; 2024 Rabail Kaghzi. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
